@@ -18,6 +18,9 @@ This script does the followings:-
 - Restart apache2
 - you can visit your website at `your_project_name.test` in your browser
 
+## Laravel 
+Laravel requires its `project` and `bootstrap/cache` folder to be writable by the server and Laravel. This script will change those folders' permission to 777.
+
 ## todo
 - Add several PHP Frameworks
 - Add Wordpress

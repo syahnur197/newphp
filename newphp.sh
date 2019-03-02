@@ -36,7 +36,7 @@ case "$FRAMEWORK" in
   ServerAdmin webmaster@localhost
   DocumentRoot /var/www/html/$NAME/public
 </VirtualHost>" > $CONF_FILE
-    composer create-project --prefer-dist laravel/laravel /var/www/html/$NAME && echo 1234 | chmod -R 777 /var/www/html/$NAME/storage && chmod -R 888 /var/www/html/$NAME/bootstrap/cache
+    composer create-project --prefer-dist laravel/laravel /var/www/html/$NAME && chmod -R 777 /var/www/html/$NAME/storage && chmod -R 888 /var/www/html/$NAME/bootstrap/cache
     case "$AUTH" in
       [yY] | [yY][eE][sS])
         php /var/www/html/$NAME/artisan make:auth
