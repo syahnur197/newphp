@@ -11,6 +11,8 @@ You also need to have permission to write
 * `/home/${your user name}/.composer/cache/repo/https---packagist.org/,`
 * `/home/${your user name}/.composer/cache/files/`
 
+To run the script, please clone this repo and cd to the directory and run `$ ./newphp.sh`
+
 This script does the followings:-
 - git clone / composer install php frameworks
 - Set up virtual host
